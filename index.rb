@@ -6,8 +6,13 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
+
+
 def sandwich_request(ingredients, order) 
-  # your code here!
+  if order ==ingredients
+    ingredients[order]=true
+    return true
+  end
 end
 
 # example city_info hash
